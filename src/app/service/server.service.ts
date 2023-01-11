@@ -12,7 +12,7 @@ import { Server } from '../interface/server';
 export class ServerService {
   constructor(private http: HttpClient) {}
 
-  private readonly apiUrl = 'any';
+  private readonly apiUrl = 'http://localhost:8084';
 
   //Procedale approach
   // getServers():Observable<CustomResponse>{

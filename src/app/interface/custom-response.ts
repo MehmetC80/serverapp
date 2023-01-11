@@ -1,3 +1,4 @@
+import { DataState } from '../enum/data-state.enum';
 import { Server } from './server';
 
 export interface CustomResponse {
